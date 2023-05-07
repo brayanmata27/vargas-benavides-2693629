@@ -4,15 +4,18 @@ tam=random.randint(15,20)
 lista=[random.randrange(0,9) for i in range(tam)]
 print(lista)
 
-x=int(input('ingrese numero que desea buscar'))
+num=int(input('ingrese numero que desea buscar'))
 
-if x  in lista:
+if num  in lista:
     print('si esta en la lista')
 else: 
-    print('no esta')
+    print('no esta en la lista')
 
-lista=[10 for i in range(10)]
-print(lista)
+if lista.count(num)>1:
+    print('El numero esta repetido{} veces en la lista.'.format(lista.count(num)))
+
+posiciones=[i for i,x in enumerate(lista) if x==num]
+print('el numero aparece en las posiciones',posiciones)
 
 
 
