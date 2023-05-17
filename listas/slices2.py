@@ -1,4 +1,4 @@
-"""Lenar una lista con un numero aleatorio (realies con un decimal) que representen calificaciones 
+^"""Lenar una lista con un numero aleatorio (realies con un decimal) que representen calificaciones 
 de un curso. Se evalua de 0 a 5 
 El curso puede tener entre 20 y 30 aprendices 
 HALLAR 
