@@ -1,11 +1,11 @@
 class empleado:
 
     objetos=0
-def __init__(self,nombre,cargo,salario):
-    self.nombre=nombre
-    self.cargo=cargo
-    self.salario=salario
-    empleado.objetos+=1
+    def __init__(self,nombre,cargo,salario):
+        self.nombre=nombre
+        self.cargo=cargo
+        self.salario=salario
+        empleado.objetos+=1
 
     def getnombre(self):
         return self.nombre
@@ -14,13 +14,13 @@ def __init__(self,nombre,cargo,salario):
         self.nombre=nombre
 
     def getcargo(self):
-        return self.crago
+        return self.cargo
     
     def setcargo(self,cargo):
         self.cargo=cargo
 
-    def getsalrio(self):
-        return salario
+    def getsalario(self):
+        return self.salario
     
     def setsalario(self,salario):
         self.salario=salario
