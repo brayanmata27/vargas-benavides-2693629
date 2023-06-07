@@ -33,10 +33,5 @@ for word in words:
     if word in diccionarioi:
         print(word, "-->", diccionarioi[word])
     else:
-        print(word, 'no esta en el diccionario')
-
-def seleccion1 (opcion1):
-    opcion1=='I'
-    palabraI=[words]
-    for palabraI in palabraI:
+        print(word, 'no esta en el diccionario' ,)
 
