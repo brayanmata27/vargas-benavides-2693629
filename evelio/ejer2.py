@@ -94,5 +94,5 @@ def menu():
         print("1. Cargar lista de Lenguajes de Programación")
         print("2. Cargar lista de Regionales SENA")
         print("3. Cargar lista de Números Pares")
-        print("4. Cargar lista de Múltiplos de 4")
+        print("4. cargar lista de Múltiplos de 4")
         print("5.")
