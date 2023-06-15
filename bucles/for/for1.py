@@ -1,4 +1,4 @@
-for i in range(11): #asi se usa la funcion for
+for i in range(11):
     print(i)
 
 for j in range (1,11):
