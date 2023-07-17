@@ -9,6 +9,7 @@ def lista_lenguajes():
         except:
             print("Error: Ingrese un valor válido.")
     return lenguajes
+print(lista_lenguajes)
 
 def lista_regionales():
     regionales = set()
